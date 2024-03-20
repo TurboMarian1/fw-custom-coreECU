@@ -19,7 +19,3 @@ DDEFS += -DMIN_FLASH_SIZE=512
 # Enable specific features for the board
 DDEFS += -DSTM32_ADC_USE_ADC3=TRUE
 DDEFS += -DEFI_SOFTWARE_KNOCK=TRUE
-
-# assign critical LED to a non-existent pin if you do not have it on your board
-# good old PD14 is still the default value
-# DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::I15
